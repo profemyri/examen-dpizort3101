@@ -1,12 +1,12 @@
 body {
-   background-color: faf0dc;
+   background-color: beige;
 
 }
 
 h1 {
    text-align: center;
    size: 32px;
-   color: a4161a;
+   color: darkred;
    padding: 20px;
 }
 
@@ -17,14 +17,11 @@ h2 {
 }
 
 img {
-   border: 1px solid #ccc;
-   width: 20%;
-   padding: 10px;
-   background-color: f1f1f1;
-   color: #333;
-   border: 1px solid #ccc;
-   border: 1px solid #0080ff;
-   outline: none;
+   border-radius: 5px;
+   width: 100%;
+   padding: 15px;
+   align-content: center;
+   
 }
 
 form {
@@ -32,3 +29,8 @@ form {
 }
 
 ............
+background-color: f1f1f1;
+   color: #333;
+   border: 1px solid #ccc;
+   border: 1px solid #0080ff;
+   outline: none;
