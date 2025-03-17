@@ -1,36 +1,51 @@
 body {
    background-color: beige;
-
+   text-align: center;
+   align-items: center;
+   align-content: center;
+   font-family:Arial, Helvetica, sans-serif;
+   width: 800px;
 }
 
 h1 {
    text-align: center;
    size: 32px;
-   color: darkred;
+   color: #a4161a;
    padding: 20px;
 }
 
 h2 {
    size: 24px;
-   color: 5f5e5e;
+   color: #5f5e5e;
    padding: 15px;
 }
 
 img {
-   border-radius: 5px;
-   width: 100%;
    padding: 15px;
-   align-content: center;
-   
+   border-radius: 30px;
+   image-resolution: center;
+   text-align: center;
 }
 
 form {
-   ...........
+   background-color: #ffffff;
+   border-radius: 30px;
+   padding: 20px;
+   padding-bottom: 20px;
+   padding-top: 20px;
+}
+input {
+   border-radius: 30px;
+   width: 20%;
+   padding: 8px;
+   border: 1px solid #ccc;
+   margin-bottom: 15px;
 }
 
-............
-background-color: f1f1f1;
-   color: #333;
-   border: 1px solid #ccc;
-   border: 1px solid #0080ff;
-   outline: none;
+input[type="button"]{
+   background-color: #a4161a;
+   color: white;
+   text-align: center;
+   border-radius: 30px;
+   padding: 10px;
+}
